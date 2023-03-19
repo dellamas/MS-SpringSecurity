@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client_id:  meuclientID
+            client_secret: MinhaKey
+      resourceserver:
+        jwt:
+          issuer-uri: https://accounts.google.com
